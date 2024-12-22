@@ -123,7 +123,13 @@ header {
     margin: 1rem;
     text-align: left;
 }
-
+.main-container-table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #93c5fd;
+}
 .main-container-table thead {
     background-color: #374151;
     color: #fcd34d;
