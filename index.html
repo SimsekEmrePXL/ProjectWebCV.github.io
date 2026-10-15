@@ -1,240 +1,64 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <title>CV Simsek Emre</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="stylesheet" href="Index.css">
-    <link rel="icon" href="assets/cv.png"   type="image/x-icon" />
-    <!--NAAM STUDENT: Simsek Emre-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CV van Emre Simsek — software developer met ervaring in webontwikkeling en een achtergrond in C# en .NET.">
+  <title>Emre Simsek — Curriculum vitae</title>
+  <style>
+@charset "UTF-8";
+:root{--ink:#172e3b;--muted:#596b73;--teal:#096f68;--line:#dce4e5;--paper:#fff;--soft:#f3f7f6}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#e9eeed;color:var(--ink);font-family:"Segoe UI",Arial,sans-serif;font-size:15px;line-height:1.65}a{color:inherit;text-decoration:none}a:hover{color:var(--teal);text-decoration:underline;text-underline-offset:4px}a:focus-visible,button:focus-visible{outline:3px solid #c38126;outline-offset:5px}button{font:inherit;cursor:pointer}.toolbar{max-width:1120px;margin:0 auto;padding:22px 4px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:24px;font-weight:800;letter-spacing:-1px}.brand span{color:var(--teal)}.toolbar>div{display:flex;gap:26px;align-items:center;font-size:13px;font-weight:600}.toolbar button{background:var(--ink);color:white;border:0;border-radius:5px;padding:10px 17px;font-size:12px}.toolbar button:hover{background:var(--teal)}.toolbar button span{margin-left:10px}.resume{max-width:1120px;margin:0 auto 56px;background:var(--paper);box-shadow:0 16px 65px #17352c0b}.hero{padding:56px 62px 42px;display:flex;justify-content:space-between;gap:36px;background:linear-gradient(110deg,#fff 68%,#f1f7f5 68%)}.eyebrow{font-size:10px;font-weight:750;letter-spacing:2.4px;color:var(--teal);margin:0 0 21px}h1{font-size:80px;line-height:.98;letter-spacing:-4px;margin:0;font-weight:750}h1>span:not(.name-dot){font-weight:350}.name-dot{color:var(--teal)}.role{margin:25px 0 2px;font-size:23px;font-weight:600;letter-spacing:-.5px}.subtitle{font-size:12px;color:var(--muted);margin:0}.hero-aside{width:250px;align-self:center}.monogram{font-size:67px;letter-spacing:-7px;line-height:1.3;font-weight:650;color:var(--teal)}.monogram span{color:#a6bdb4}.hero-aside>p{font-size:15px;line-height:1.6;color:var(--muted);margin:13px 0 20px}.contact-link{font-weight:650;font-size:12px;border-bottom:1px solid #9cbbb3;padding-bottom:7px;display:inline-flex;gap:25px}.contact-strip{margin:0 62px;padding:17px 0;display:flex;flex-wrap:wrap;gap:13px 30px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:12px;font-weight:600}.contact-strip>a:last-child{margin-left:auto;color:var(--teal)}.layout{display:grid;grid-template-columns:235px 1fr;gap:44px;padding:42px 62px 45px}.sidebar{border-right:1px solid var(--line);padding-right:30px}.sidebar section+section{margin-top:36px}.sidebar .eyebrow{margin-bottom:6px;font-size:9px;letter-spacing:1.8px}h2{font-size:21px;line-height:1.3;letter-spacing:-.5px;margin:0}h3{font-size:15px;line-height:1.5;margin:0;font-weight:650}.skill-group{margin-top:22px}.skill-group h3{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--teal)}.skill-group p{margin:6px 0 0;font-size:13px;line-height:1.85}.languages{font-size:12px;margin:20px 0 0}.languages>div{display:flex;justify-content:space-between;gap:8px;padding:7px 0;border-bottom:1px solid #edf0ef}.languages dd{margin:0;color:var(--muted)}.strengths{list-style:none;padding:0;margin:17px 0 0;font-size:12px}.strengths li{position:relative;padding-left:13px;margin:8px 0}.strengths li:before{content:"";position:absolute;width:4px;height:4px;background:var(--teal);left:0;top:9px}.content section+section{margin-top:33px}.section-title{display:flex;align-items:center;gap:13px;margin-bottom:21px}.section-title>span{font-size:10px;font-weight:700;color:var(--teal);border:1px solid #c9dcd6;border-radius:50%;width:26px;height:26px;display:grid;place-items:center;flex-shrink:0}.profile>p{font-size:13px;color:var(--muted);margin:0 0 12px;line-height:1.85}.entry{padding-bottom:19px;margin-bottom:19px;border-bottom:1px solid var(--line);break-inside:avoid}.entry-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:3px 15px}.date{font-size:10px;white-space:nowrap;color:var(--muted);margin:0}.organization{font-size:12px;font-weight:600;color:var(--teal);margin:4px 0 8px}.entry>p:not(.organization){font-size:12px;color:var(--muted);margin:0;line-height:1.8}.featured{border-left:3px solid var(--teal);background:var(--soft);padding:19px 20px;border-bottom:0}.badge{font-size:9px;vertical-align:middle;margin-left:7px;font-weight:600;border:1px solid #c2d8d1;border-radius:3px;padding:2px 6px;color:var(--teal)}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:13px}.tags span{font-size:9px;background:white;border:1px solid #d8e3df;padding:2px 7px;border-radius:3px}.compact{padding-bottom:15px;margin-bottom:15px}.distinction{font-size:9px;background:#eaf3ed;color:#366844;border-radius:3px;padding:3px 6px;margin-left:6px;display:inline-block}.additional{display:grid;grid-template-columns:1fr 1.3fr;gap:18px}.additional h3{font-size:11px}.additional p{font-size:10px;color:var(--muted);margin:3px 0 0}footer{margin:0 62px;padding:20px 0;display:flex;justify-content:space-between;border-top:1px solid var(--line);font-size:10px;color:var(--muted)}.footer-dot{color:var(--teal);padding:0 9px}
+@media(min-width:1500px){.toolbar{padding-top:35px}}
+@media(max-width:800px){.toolbar{padding:16px 24px}.resume{margin-bottom:0}.hero{padding:38px 30px;background:linear-gradient(110deg,#fff 65%,#f1f7f5 65%)}h1{font-size:67px}.hero-aside{width:200px}.contact-strip{margin:0 30px;gap:10px 20px}.layout{grid-template-columns:190px 1fr;gap:26px;padding:32px 30px}.sidebar{padding-right:22px}.entry-top{display:block}.date{margin-top:3px}footer{margin:0 30px}}
+@media(max-width:580px){.toolbar>div{gap:14px}.toolbar>div>a{display:none}.hero{padding:32px 24px;background:#fff}.hero-aside{display:none}h1{font-size:72px}.role{font-size:22px}.subtitle{font-size:11px}.contact-strip{margin:0 24px;display:grid;gap:7px}.contact-strip>a:last-child{margin-left:0}.layout{display:flex;flex-direction:column;padding:30px 24px;gap:30px}.content{order:-1}.sidebar{border-right:0;border-top:1px solid var(--line);padding:28px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:28px 20px}.sidebar section:first-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;column-gap:20px}.sidebar section:first-child>.eyebrow,.sidebar section:first-child>h2{grid-column:1/-1}.sidebar section+section{margin:0}.sidebar h2{font-size:19px}.additional{grid-template-columns:1fr}.entry-top{display:flex}.featured{padding:17px}footer{margin:0 24px;gap:12px}footer>a{white-space:nowrap}}
+@page{size:A4;margin:12mm}
+@media print{html{scroll-behavior:auto}body{background:white;font-size:10px;color:#172e3b;print-color-adjust:exact;-webkit-print-color-adjust:exact}.toolbar{display:none}.resume{max-width:none;box-shadow:none;margin:0}.hero{padding:0 0 17px;background:white;gap:20px}.eyebrow{font-size:8px;margin-bottom:10px}h1{font-size:48px;letter-spacing:-2px}.role{font-size:16px;margin-top:12px}.subtitle{font-size:9px}.hero-aside{width:180px}.monogram{font-size:42px}.hero-aside>p{font-size:10px;margin:4px 0 10px}.contact-link{font-size:9px;padding-bottom:3px}.contact-strip{margin:0;padding:10px 0;font-size:9px;gap:20px}.layout{grid-template-columns:160px 1fr;gap:25px;padding:22px 0 0}.sidebar{padding-right:20px}.sidebar section+section{margin-top:23px}.sidebar .eyebrow{font-size:7px}h2{font-size:16px}.skill-group{margin-top:13px}.skill-group h3{font-size:8px}.skill-group p{font-size:9px;line-height:1.7}.languages,.strengths{font-size:9px;margin-top:10px}.languages>div{padding:4px 0}.strengths li{margin:4px 0}.strengths li:before{top:6px}.section-title{margin-bottom:12px;gap:9px}.section-title>span{width:20px;height:20px;font-size:8px}.content section+section{margin-top:18px}.profile>p{font-size:9px;line-height:1.65;margin-bottom:7px}h3{font-size:11px}.date{font-size:8px}.organization{font-size:9px;margin:2px 0 4px}.entry{padding-bottom:10px;margin-bottom:10px}.entry>p:not(.organization){font-size:9px;line-height:1.6}.featured{padding:10px 12px}.tags{margin-top:7px;gap:4px}.tags span,.badge,.distinction{font-size:7px}.additional{gap:12px}.additional h3{font-size:9px}.additional p{font-size:8px}footer{margin:17px 0 0;padding:10px 0;font-size:8px}footer>a{display:none}a{text-decoration:none!important}h2,h3,.section-title{break-after:avoid}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+</style>
 </head>
-<body>
-<nav>
-    <div class="nav-container-flexBox">
-        <a href="https://www.pxl.be/digital" target=“_blank”><img alt="FotoPxl" src="assets/InvertedPXL.png" /></a>
-        <ul class="nav-container-list">
-            <li><a href="#" target=“_blank”>Home</a></li>
-            <li><a href="index.html" target=“_blank”>CV</a></li>
-            <li><a href="#" target=“_blank”>Contact</a></li>
-        </ul>
+<body id="top">
+  <nav class="toolbar" aria-label="CV-navigatie">
+    <a class="brand" href="#top">ES<span>.</span></a>
+    <div><a href="#ervaring">Ervaring</a><a href="#opleiding">Opleiding</a><button type="button" onclick="window.print()">Afdrukken / PDF <span aria-hidden="true">↗</span></button></div>
+  </nav>
+  <main class="resume">
+    <header class="hero">
+      <div class="intro"><p class="eyebrow">CURRICULUM VITAE</p><h1>Emre<br><span>Simsek</span><span class="name-dot">.</span></h1><p class="role">Software developer</p><p class="subtitle">Webontwikkeling · C# &amp; .NET · Mobiele applicaties</p></div>
+      <div class="hero-aside"><div class="monogram" aria-hidden="true">es<span>_</span></div><p>Van technische uitdaging<br>naar een werkende oplossing.</p><a class="contact-link" href="mailto:Simsek-Emre@outlook.be">Laten we kennismaken <span aria-hidden="true">↗</span></a></div>
+    </header>
+    <div class="contact-strip" aria-label="Contactgegevens"><a href="mailto:Simsek-Emre@outlook.be">Simsek-Emre@outlook.be</a><a href="tel:+32488201097">+32 488 20 10 97</a><a href="https://www.linkedin.com/in/-emresimsek/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
+    <div class="layout">
+      <aside class="sidebar">
+        <section aria-labelledby="skills"><p class="eyebrow">TECHNISCHE BASIS</p><h2 id="skills">Vaardigheden</h2>
+          <div class="skill-group"><h3>Talen</h3><p>TypeScript · JavaScript<br>C# · Java · PHP · SQL<br>HTML · CSS</p></div>
+          <div class="skill-group"><h3>Front-end</h3><p>React · Vue.js · Blazor</p></div>
+          <div class="skill-group"><h3>Back-end</h3><p>Node.js · Symfony</p></div>
+          <div class="skill-group"><h3>Mobiel &amp; cross-platform</h3><p>React Native · .NET MAUI</p></div>
+          <div class="skill-group"><h3>Tools &amp; overige kennis</h3><p>GitHub · Python (basis)</p></div>
+        </section>
+        <section aria-labelledby="languages"><h2 id="languages">Talen</h2><dl class="languages"><div><dt>Nederlands</dt><dd>Zeer goed</dd></div><div><dt>Turks</dt><dd>Zeer goed</dd></div><div><dt>Engels</dt><dd>Zeer goed</dd></div><div><dt>Frans</dt><dd>Basiskennis</dd></div></dl></section>
+        <section aria-labelledby="strengths"><h2 id="strengths">Werkwijze</h2><ul class="strengths"><li>Probleemoplossend</li><li>Zelfstandig en toegewijd</li><li>Resultaatgericht</li><li>Flexibel bij verandering</li></ul></section>
+      </aside>
+      <div class="content">
+        <section class="profile" aria-labelledby="profile"><div class="section-title"><span aria-hidden="true">01</span><h2 id="profile">Profiel</h2></div><p>Ik ben een gedreven software developer met een passie voor het oplossen van technische vraagstukken. Tijdens mijn stage bij 4BIS Innovations werkte ik aan webapplicaties met React, TypeScript, PHP en Node.js. Daarnaast heb ik een sterke interesse in C# en het .NET-ecosysteem.</p><p>Na mijn graduaat Programmeren aan Hogeschool PXL, behaald met onderscheiding, verdiep ik mijn kennis verder in de bachelor Toegepaste Informatica aan UCLL. Ik werk doelgericht, leer graag bij en zet door tot een oplossing werkt.</p></section>
+        <section id="ervaring" aria-labelledby="experience"><div class="section-title"><span aria-hidden="true">02</span><h2 id="experience">Ervaring</h2></div>
+          <article class="entry featured"><div class="entry-top"><h3>Programmer <span class="badge">Stage</span></h3><p class="date">nov. 2025 — mei 2026</p></div><p class="organization">4BIS Innovations B.V.</p><p>Meewerken aan de ontwikkeling van webapplicaties, met ervaring in zowel front-end- als back-endtechnologieën.</p><div class="tags" aria-label="Gebruikte technologieën"><span>React</span><span>TypeScript</span><span>PHP / Symfony</span><span>Node.js</span><span>SQL</span></div></article>
+          <article class="entry"><div class="entry-top"><h3>Nachtbewaker</h3><p class="date">jun. 2023 — heden</p></div><p class="organization">Center Parcs Erperheide</p><p>Toezien op de veiligheid van gasten en het terrein. Gasten ondersteunen bij problemen en zelfstandig reageren op onverwachte situaties.</p></article>
+          <article class="entry"><div class="entry-top"><h3>Webdeveloper &amp; klantenadministratie</h3><p class="date">feb. 2021 — jun. 2023</p></div><p class="organization">Rijschool Simsek</p><p>Klantgegevens beheren en de website van de rijschool ontwikkelen om de interactie met klanten te verbeteren.</p></article>
+          <article class="entry compact"><div class="entry-top"><h3>Verkoper</h3><p class="date">aug. 2019 — jan. 2020</p></div><p class="organization">Jack &amp; Jones · M2 Shopping Center</p><p>Klanten adviseren, de winkelvoorraad bijhouden en bijdragen aan een prettige winkelervaring.</p></article>
+          <article class="entry compact"><div class="entry-top"><h3>Verkoper</h3><p class="date">aug. — sep. 2018</p></div><p class="organization">Nike · Maasmechelen Village</p><p>Klanten adviseren en ondersteunen bij het voorraadbeheer.</p></article>
+        </section>
+        <section id="opleiding" aria-labelledby="education"><div class="section-title"><span aria-hidden="true">03</span><h2 id="education">Opleiding</h2></div>
+          <article class="entry"><div class="entry-top"><h3>Bachelor Toegepaste Informatica</h3><p class="date">sep. 2026 — heden</p></div><p class="organization">UCLL Applied Computer Science</p><p>Verdere verdieping in softwareontwikkeling, met onder meer TypeScript, Java, Node.js en SQL.</p></article>
+          <article class="entry"><div class="entry-top"><h3>Graduaat Programmeren</h3><p class="date">sep. 2024 — sep. 2026</p></div><p class="organization">Hogeschool PXL <span class="distinction">Met onderscheiding</span></p><p>Ervaring met C#, Blazor, .NET MAUI, React, Vue.js, JavaScript, HTML, CSS en SQL.</p></article>
+          <div class="additional"><div><h3>Bewakingsagent</h3><p>2022 — 2023</p></div><div><h3>Middelbaar · IT &amp; Netwerken</h3><p>2017 — 2018</p></div></div>
+        </section>
+      </div>
     </div>
-</nav>
-<header>
-    <div class="header-container-flexBox">
-        <h1><span>S</span>imsek</h1>
-        <h1><span>E</span>mre</h1>
-        <h1>24 jaar</h1>
-        <h1><span>M</span>an</h1>
-    </div>
-    <a class="header-image-link" href="https://www.linkedin.com/in/-emresimsek/" target=“_blank”>
-        <img alt="MySelfPicture" src="assets/SimsekEmre.png"  class="header-image"/>
-    </a>
-</header>
-<main>
-    <section class="main-text">
-        <p>
-            Ik ben een gedreven probleemoplosser met een passie voor IT. Sinds ik mijn eerste pc had, ben ik altijd gemotiveerd
-        geweest om technische uitdagingen zelfstandig aan te pakken – zowel op het gebied van hardware als software. Mijn grootste
-        passie ligt in het werken met de programmeertaal C#, waarin ik voortdurend mijn kennis en vaardigheden ontwikkel.
-        Ik zoek een kans om mijn expertise verder uit te bouwen en een concrete impact te maken binnen een dynamische en
-        innovatieve werkomgeving.
-        </p>
-    </section>
-    <section class="main-container-values-table">
-        <table class="main-container-table">
-            <caption>Talen die ik beheers</caption>
-            <thead>
-            <tr>
-                <th>Taal</th>
-                <th>Vaardigheid</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Nederlands</td>
-                <td>Zeer Goed</td>
-            </tr>
-            <tr>
-                <td>Turks</td>
-                <td>Zeer Goed</td>
-            </tr>
-            <tr>
-                <td>Engels</td>
-                <td>Zeer Goed</td>
-            </tr>
-            <tr>
-                <td>Frans</td>
-                <td>Basiskennis</td>
-            </tr>
-            </tbody>
-        </table>
-        <table class="main-container-table">
-            <caption class="main-container-title">Programmeertalen</caption>
-            <thead>
-            <tr>
-                <th>Taal</th>
-                <th>Vaardigheid</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>C#</td>
-                <td>Basiskennis</td>
-            </tr>
-            <tr>
-                <td>HTML&CSS</td>
-                <td>Basiskennis</td>
-            </tr>
-            <tr>
-                <td>DataSQL</td>
-                <td>Basiskennis</td>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>Basiskennis</td>
-            </tr>
-            </tbody>
-        </table>
-        <table class="main-container-table">
-            <caption class="main-container-title">Behaalde diploma's</caption>
-            <thead>
-            <tr>
-                <th>Diploma</th>
-                <th>Jaar</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Middelbaar (IT&Netwerken)</td>
-                <td>2017-2018</td>
-            </tr>
-            <tr>
-                <td>Bewakingsagent</td>
-                <td>2022-2023</td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
-    <section class="main-container-values-hidden">
-        <article class="main-container-languages">
-            <h1 class="main-container-title">Talen die ik beheers</h1>
-            <div class="main-article-language ">
-                <span class="language-name">Nederlands</span>
-                <span class="language-skill">Zeer Goed</span>
-            </div>
-            <div class="main-article-language ">
-                <span class="language-name">Turks</span>
-                <span class="language-skill">Zeer Goed</span>
-            </div>
-            <div class="main-article-language ">
-                <span class="language-name">Engels</span>
-                <span class="language-skill">Zeer Goed</span>
-            </div>
-            <div class="main-article-language ">
-                <span class="language-name">Frans</span>
-                <span class="language-skill">Basiskennis</span>
-            </div>
-        </article>
-        <article class="main-container-languages">
-            <h1 class="main-container-title">Programmeertalen</h1>
-            <div class="main-article-language ">
-                <span class="language-name">C#</span>
-                <span class="language-skill">Basiskennis</span>
-            </div>
-            <div class="main-article-language ">
-                <span class="language-name">HTML&CSS</span>
-                <span class="language-skill">Basiskennis</span>
-            </div>
-            <div class="main-article-language ">
-                <span class="language-name">DataSQL</span>
-                <span class="language-skill">Basiskennis</span>
-            </div>
-            <div class="main-article-language ">
-                <span class="language-name">Python</span>
-                <span class="language-skill">Basiskennis</span>
-            </div>
-        </article>
-        <article class="main-container-languages">
-            <h1 class="main-container-title">Behaalde diploma's</h1>
-            <div class="main-article-language ">
-                <span class="language-name">Middelbaar (IT&Netwerken)</span>
-                <span class="language-skill">2017-2018</span>
-            </div>
-            <div class="main-article-language ">
-                <span class="language-name">Bewakingsagent</span>
-                <span class="language-skill">2022-2023</span>
-            </div>
-        </article>
-    </section>
-    <div class="main-soft-skills">
-        <h3>Soft Skills</h3>
-        <ul class="main-work-experience-list">
-            <li class="main-work-experience-item">
-                <span class="main-work-experience-role">Probleemoplossend vermogen</span>
-                <p class="main-work-experience-description">Ik werk consistent en doelgericht aan een probleem totdat ik een passende oplossing heb gevonden.</p>
-            </li>
-            <li class="main-work-experience-item">
-                <span class="main-work-experience-role">Resultaatgericht</span>
-                <p class="main-work-experience-description">Ik hanteer een flexibele aanpak met een duidelijke focus op doelen. Ik weet mijn activiteiten goed te organiseren en aan te passen aan de situatie om het gewenste resultaat te bereiken.</p>
-            </li>
-            <li class="main-work-experience-item">
-                <span class="main-work-experience-role">Flexibiliteit</span>
-                <p class="main-work-experience-description">Ik pas me gemakkelijk aan bij veranderingen en onverwachte situaties, zonder mijn efficiëntie te verliezen.</p>
-            </li>
-            <li class="main-work-experience-item">
-                <span class="main-work-experience-role">Toegewijd werken</span>
-                <p class="main-work-experience-description">Ik streef naar een correcte uitvoering van mijn taken. Zelfs buiten werktijd denk ik na over lopende taken en hoe ik deze kan verbeteren of welke volgende stappen nodig zijn.</p>
-            </li>
-        </ul>
-    </div>
-    <h1>Werkervaring</h1>
-    <section class="main-container-values">
-        <ul class="main-work-experience-list">
-            <li class="main-work-experience-item"> <a href="https://www.nike.com/be/retail/s/maasmechelen-nike-factory-store" target=“_blank”>
-                <h2 class="main-work-experience-role">Verkoper</h2>
-                <p class="main-work-experience-company">Village: Nike</p>
-                <p class="main-work-experience-period">01/08/2018-30/09/2018</p>
-                <p class="main-work-experience-description">Verantwoordelijk voor het adviseren van klanten, het bijhouden van de winkelvoorraad en het optimaliseren van de winkelervaring voor klanten.</p>
-            </a></li>
-            <li class="main-work-experience-item"> <a href="https://www.m2shoppingcenter.be/winkel/jack-jones?location=A14" target=“_blank”>
-                <h2 class="main-work-experience-role">Verkoper</h2>
-                <p class="main-work-experience-company">M2: Jack and Jones</p>
-                <p class="main-work-experience-period">28/08/2019-30/01/2020</p>
-                <p class="main-work-experience-description">Verantwoordelijk voor het adviseren van klanten, het bijhouden van de winkelvoorraad en het optimaliseren van de winkelervaring voor klanten.</p>
-            </a></li>
-            <li class="main-work-experience-item"><a href="https://www.rijschoolsimsek.be/" target=“_blank”>
-                <h2 class="main-work-experience-role">Klanten data bijhouden/Web developer</h2>
-                <p class="main-work-experience-company">Rijschool Simsek</p>
-                <p class="main-work-experience-period">15/02/2021-15/06/2023</p>
-                <p class="main-work-experience-description">Verantwoordelijk voor het beheren van klantgegevens en het ontwikkelen van de website voor de rijschool om de klantinteractie te verbeteren.</p>
-            </a></li>
-            <li class="main-work-experience-item"><a href="https://www.centerparcs.be/be-vl/belgie/fp_EP_vakantiepark-domaine-erperheide" target=“_blank”>
-                <h2 class="main-work-experience-role">Nacht bewaker</h2>
-                <p class="main-work-experience-company">Center Parcs Erperheide</p>
-                <p class="main-work-experience-period">18/06/2023-Heden</p>
-                <p class="main-work-experience-description">Verantwoordelijk voor het veilighouden van waarborgen/gasten die zich bevinden binnen het terreinen. Ook het uit de nood helpen als er iets niet in orde is in hun cottages.</p>
-            </a></li>
-        </ul>
-    </section>
-</main>
-<footer>
-    <div class="footer-container">
-        <div class="footer-left">
-            <p>Simsek Emre 1ProD</p>
-            <a class="footer-phone" href="tel:+32488201097">+32 488 20 10 97</a>
-            <a href="mailto:Simsek-Emre@outlook.be">
-                <p>Simsek-Emre@outlook.be</p>
-            </a>
-        </div>
-        <div class="footer-center">
-            <p>Opdracht curriculum vitae</p>
-        </div>
-        <div class="footer-right">
-            <a href="#top" class="back-to-top-link">
-            <button class="button-to-top" onclick=href="#top">Terug naar boven</button>
-            </a>
-        </div>
-    </div>
-</footer>
+    <footer><span>Emre Simsek <span class="footer-dot">/</span> Curriculum vitae</span><a href="#top">Terug naar boven ↑</a></footer>
+  </main>
 </body>
 </html>
+
